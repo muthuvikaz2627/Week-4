@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <style>
+    
+        h1 {
+        color: rgb(247, 5, 5);
+        }
+        </style>
+</head>
+<body>
+    <div class="jumbotron text-center">
+        <h1 style="color:crimson"><b>Prodapt</b></h1>
+        <h3 style="color:DodgerBlue;"><b>Register Form</b></h3><br>
+    <form action="Main.html" method="post">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" ><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" ><br>
+        <label for="DOB">DOB:</label><br>
+        <input type="date" id="DOB" name="DOB"><br><br>
+
+        <h5><b>Gender :</b></h5>
+        <input type="checkbox" id="gender" name="gender" value="male">
+        <label for="gender">Male</label>&nbsp;
+        <input type="checkbox" id="gender" name="gender" value="female">
+        <label for="gender">Female</label>&nbsp;
+        <input type="checkbox" id="gender" name="gender" value="other">
+        <label for="gender">Other</label>&nbsp;
+        <br><br>
+
+
+        <label for="country">Country:</label><br>
+        <input type="country" id="country" name="country"><br>
+        
+        <label for="email">Enter your email:</label><br>
+        <input type="email" id="email" name="email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br>
+
+        <label for="password">Create Password:</label><br>
+        <input type="password" id="pwd" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+        title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"><br><br>
+        
+        
+        <input type="submit" value="Submit">
+        <input type="reset"><br><br>
+      </form>
+      <form action="Login.html" method="post">
+      <h>If already registered....</h>
+      <button type="submit" class="btn btn-info" >Login</button>
+      </form>
+
+</body>
+</html>
