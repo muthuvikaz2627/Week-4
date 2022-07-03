@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product<div class="row">
+       </title>
+
+    <style>
+        * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+h1{text-align: center;}
+p{text-align: center;}
+    </style>
+</head>
+<body>
+    <div class="jumbotron text-center">
+    <h1 style="color:crimson">Technology</h1>
+    <p style="color:DodgerBlue;" >Give wings to your technology vision with our design and engineering expertise</p><br>
+    </div>
+    <div class="column">
+        <img src="sales.jfif" alt="Jane" style="width:357px;height:250px;">
+        <div class="card"><b>Salesforce</b></div>
+      </div>
+      <div class="column">
+        <img src="Cloud.jpg" alt="Jane" style="width:357px;height:250px;">
+        <div class="card"><b>Cloud Computing</b></div>
+      </div>
+      <div class="column">
+        <img src="Fs.jpg" alt="Jane" style="width:357px;height:250px;">
+        <div class="card"><b>Developer</b></div>
+      </div>
+      <div class="column">
+        <img src="Ai.jfif" alt="Jane" style="width:357px;height:250px;">
+        <div class="card"><b>Machine Learning</b></div>
+      </div><br><br>
+      <div class="column">
+        <img src="bc.jfif" alt="Jane" style="width:357px;height:250px;">
+        <div class="card"><b>Block Chain</b></div>
+      </div>
+      <div class="column">
+        <img src="art.jfif" alt="Jane" style="width:357px;height:250px;">
+        <div class="card"><b>Artificial Intelligence</b></div>
+      </div>
+      <div class="column">
+        <img src="N.jfif" alt="Jane" style="width:357px;height:250px;">
+        <div class="card"><b>Networking</b></div>
+      </div>
+      <div class="column">
+        <img src="Ent.jfif" alt="Jane" style="width:357px;height:250px;">
+        <div class="card"><b>Media and Entertainment</b></div>
+      </div>
+    
+</body>
+</html>
