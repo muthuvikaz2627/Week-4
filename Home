@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+      }
+      
+      html {
+        box-sizing: border-box;
+      }
+      
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+      
+      .column {
+        float: left;
+        width: 33.3%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+      }
+      
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: 8px;
+      }
+      
+      .about-section {
+        padding: 50px;
+        text-align: center;
+        background-color: #474e5d;
+        color: white;
+      }
+      
+      .container {
+        padding: 0 16px;
+      }
+      
+      .container::after, .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .title {
+        color: grey;
+      }
+      
+      .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+      }
+      
+      .button:hover {
+        background-color: #555;
+      }
+      
+      @media screen and (max-width: 650px) {
+        .column {
+          width: 100%;
+          display: block;
+        }
+      }
+      </style>
+</head>
+<body>
+    <div class="about-section">
+        <h1>Welcome Home</h1>
+        <p>We are ready to share our Advice and Experience</p>
+        <p></p>
+      </div>
+      
+      <h2 style="text-align:center"></h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="OIP.jfif" alt="Jane" style="width:475px;height:300px;">
+            <div class="container">
+              <h2>Sales Force</h2>
+             
+              <p>Salesforce is one of the best cloud-based CRM platforms. It is an integrated CRM platform that provides a single shared view of each customer for all the departments within an organization, such as Marketing, Sales, Commerce, and Service.</p>
+             
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="Cloud.jpg" alt="Mike" style="width:475px;height:300px;">
+            <div class="container">
+              <h2>Cloud</h2>
+              
+              <p>The term Cloud refers to a Network or Internet. In other words, we can say that Cloud is something, which is present at remote location. Cloud can provide services over public and private networks, i.e., WAN, LAN or VPN.Businesses use four different methods to deploy cloud resources.</p>
+             
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            
+            <img src="Ent.jfif" alt="John" style="width:475px;height:300px;" >
+            <div class="container">
+              <h2>Media and Entertainment</h2>
+              
+              <p>Media and Entertainment is a very fast-growing and dynamic industry which includes television, print, digital media, radio, films, live events, sports, out of home, and music. This 2-year degree program prepares their students to become business managers and leaders with the Media and Entertainment edge.</p>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
