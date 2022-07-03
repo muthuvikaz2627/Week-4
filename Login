@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+
+<meta charset="UTF-8">
+    
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<style>
+
+    h1 {
+    color: rgb(247, 5, 5);
+    }
+    </style>
+<body>
+
+    <div class="jumbotron text-center">
+        <h1 style="color:crimson" ><b>Prodapt</b></h1><br>
+
+        <form action="Main.html" method="post">
+          <div class="form-group">
+  
+          <h3>
+          
+          <input type="text" name="username" placeholder="Username" id="username" /><br>
+          
+          <input type="password" name="pwd" placeholder="Password" id="pwd" /><br><br></div>
+    
+    </h3>
+          <div class="checkbox">
+            <label><input type="checkbox"> Remember me</label>
+          </div>
+          <button type="submit" class="btn btn-info">Submit</button>
+        </form>
+
+</body>
+</html>
